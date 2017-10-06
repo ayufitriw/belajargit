@@ -129,7 +129,7 @@ if(isset($_SESSION['username'])== 0) { /* Halaman ini tidak dapat diakses jika b
                         echo "<li><a href='home.php?page=$i' >" . $i . "</a></li>";
                     };
                     // Going to last page
-                    echo "<li><a href='home.php?page=$total_pages' >" . '&raquo;' . "</a></li>";
+                    echo "<li><a href='home.php?page=$total_pages' >" . '&raquo;' . "</a></li>
                     ?>
             </div>
         </div>
